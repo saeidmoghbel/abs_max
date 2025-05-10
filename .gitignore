@@ -1,0 +1,35 @@
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*.so
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and runtime files
+*.log
+*.tmp
+
+# Ignore virtual environments
+env/
+venv/
+.venv/
+
+# Ignore compiled LaTeX files (if applicable)
+*.aux
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.log
+*.fdb_latexmk
+
+# Ignore IDE/editor configs
+.vscode/
+.idea/
+*.swp
